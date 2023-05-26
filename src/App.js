@@ -1,23 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="home-page-container">
+      <Navbar />
+      <div className="container">
+        <div className="hero-banner">
+          <h1>Welcome to BCH events</h1>
+        </div>
+        <div className="card-container">
+          <div className="card">
+            <Link to="/add">
+              <h2>Add Event</h2>
+              <p>Add a new event</p>
+            </Link>
+          </div>
+          <div className="card">
+            <Link to="/browse">
+              <h2>Browse Events</h2>
+              <p>Explore our events</p>
+            </Link>
+          </div>
+          <div className="card">
+            <Link to="https://www.bc.fi/">
+              <h2>BC's website</h2>
+              <p>Visit Our Website</p>
+            </Link>
+          </div>
+          <div className="card">
+            <Link to="https://www.myhelsinki.fi/see-and-do/events">
+              <h2>What to do in Helsinki</h2>
+              <p>Visit city of Helsinki</p>
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

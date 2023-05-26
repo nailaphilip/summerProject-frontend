@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "title": "Conference",
+      "info": "This is a Drupal coneference",
+      "picture": "https://www.loginradius.com/wp-content/uploads/2015/04/drupal-8-logo-Stacked-CMYK-300.png",
+      "date": "1.07.2023",
+      "time": "10.00",
+      "duration": "4h",
+      "location": "salli 259",
+      "trasnport": "train, buses, trams",
+      "id": 1
+    },
+    {
+      "title": "Workshop",
+      "info": "This is a Symfony workshop",
+      "picture": "hhttps://www.diligent.es/wp-content/uploads/2018/05/Que-es-el-Framework-Symfony-php-marketplaces.jpg",
+      "date": "5.08.2023",
+      "time": "12.00",
+      "duration": "6h",
+      "location": "salli 290",
+      "trasnport": "train, buses, trams",
+      "id": 2
+    },
+    {
+      "title": "test",
+      "info": "test",
+      "date": "12.01",
+      "time": "14.00",
+      "duration": "2h",
+      "location": "Pasila",
+      "transport": "test",
+      "picture": "https://www.bairesdev.com/wp-content/uploads//2022/06/Picture6-1.svg",
+      "id": 3
+    },
+    {
+      "title": "test1",
+      "info": "test1",
+      "date": "13.05",
+      "time": "15.00",
+      "duration": "werff",
+      "location": "ergfer",
+      "transport": "test",
+      "picture": "https://www.bairesdev.com/wp-content/uploads//2022/06/Picture6-1.svg",
+      "id": 4
+    }
+  ]
+}
